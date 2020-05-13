@@ -42,7 +42,23 @@
             #ben{background-image: linear-gradient(rgba(96, 201, 201, 0.767),rgba(237, 255, 78, 0.767)) ; margin-left: 2cm;width: 4cm;}
             #benkimimyazi{background-color: rgba(0, 0, 0, 0.767); margin-top: -1cm;}
             #benkimim{background-color: rgba(239, 255, 15, 0.822); margin-top: -1cm; display:flex;}
+            #ben:hover{
+	background: linear-gradient(-45deg, #f76a3f, #c8e73c, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
             table{
                    border: 3px solid black; 
                    margin-left: 35cm; 

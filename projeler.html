@@ -37,7 +37,23 @@
             #div1{background-color: rgba(128, 62, 167, 0.767);margin-top: -0.8cm; }
             body{background-color: rgba(63, 92, 223, 0.767) }
             #ben{background-image: linear-gradient(rgba(176, 96, 201, 0.767),rgba(237, 255, 78, 0.767)) ; margin-left: 2cm;width: 4cm;}
+            #ben:hover{
+	background: linear-gradient(-45deg, #f76a3f, #c8e73c, #b54cd4, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
             #div2{display: flex;}
             #dell{display: flex;}
             .button {
