@@ -8,9 +8,10 @@
     <div id ="div2">
        
         <div id= "ben">
-            <img src="img/me.jpg" alt="Umut Şener"  style="width: 130px; height: 130px; margin-top:0.30cm;  margin-left:7%; border-radius: 50%;   "  >
-                  <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: rgb(0, 0, 0);margin-top: 0px; margin-left:15%">Umut Şener</h1> 
-            </img>
+            <img id="benresim"src="img/me.jpg" alt="Umut Şener"  style="width: 130px; height: 130px; margin-top:0.30cm;  margin-left:7%; border-radius: 50% ;   "  >
+                  <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: rgb(0, 0, 0);margin-top: 0px; margin-left:15% ">Umut Şener</h1> 
+            
+                </img>
         </div>
             <button class="button" style="margin-top: 0.70cm; width: 100px; height: 100px; margin-left: 2cm; border-radius: 50%; background:none; border:none; " onclick="window.location.href='/'">
                 <img height="100px" width="100px" src="img/home.png" style="border-radius: 50%;  margin-left:-25px;  margin-top:-15px;"/>
@@ -39,7 +40,11 @@
             #div1{background-color: rgba(96, 201, 201, 0.767);margin-top: -0.8cm;}
             body{background-color: rgba(63, 92, 223, 0.767) }
             #ben{background-color: rgb(255, 228, 72); margin-left: 2cm;width: 4cm;}
-
+            #ben:active{
+                @keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}            }
             #div2{display: flex;}
             #dell{display: flex;}
             .button {
@@ -88,6 +93,7 @@
    
 document.writeln("<p style=\"color:white; font-size:18px;\"> Designed&Developed by Umut Şener  </p>");
 document.writen("<p style=\"color:white;\"> All Rights Reserved </p>");
+ 
 
 </script>
                       
