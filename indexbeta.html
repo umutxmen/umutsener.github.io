@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script src='Scripts/jquery.openSound.js'></script>
+
+<head>
+    <title>BEN</title>
+    
+    <div id ="div2">
+       
+        <div id= "ben">
+            <img id="benresim"src="img/me.jpg" alt="Umut Şener"  style="width: 130px; height: 130px; margin-top:0.30cm;  margin-left:7%; border-radius: 50% ;   "  >
+                  <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: rgb(0, 0, 0);margin-top: 0px; margin-left:15% ">Umut Şener</h1> 
+            
+                </img>
+        </div>
+            <button class="button" style="margin-top: 0.70cm; width: 100px; height: 100px; margin-left: 2cm; border-radius: 50%; background:none; border:none; " onclick="window.location.href='/'">
+                <img height="100px" width="100px" src="img/home.png" style="border-radius: 50%;  margin-left:-25px;  margin-top:-15px;"/>
+                <h1 style="font-size: 15px; color: white;margin-top: 0px;margin-left:0.2px ;">Ben</h1> 
+                
+    
+            </button> 
+            <button class="button" style="width: 100px; height: 100px; font-size:25px; font-style: oblique;  border-radius: 50%; border:none; background-color: rgb(141, 121, 252);  margin-left:1cm; margin-top:0.70cm; " value="Projeler" onclick="window.location.href='/projeler'">
+            <img height="100px" width="100px"  src="img/projeler.png" style="border-radius: 50%; margin-left:-19px;  margin-top:-15px";/>
+            <h1 style="font-size: 15px; color: white;margin-top: 0px;">Projeler</h1> 
+    
+            <button class="button" style="margin-top: 0.70cm; width: 100px; height: 100px; margin-left: 1cm; border-radius: 50%; background-color: rgba(255, 139, 30, 0.726); border:none; " onclick="window.location.href='/fotograflar'">
+                <img height="100px" width="100px" src="img/photos.png" style="border-radius: 50%;  margin-left:-19px;  margin-top:-15px;"/>
+                <h1 style="font-size: 15px; color: white;margin-top: 0px;margin-left:-13px ;">Fotoğraflar</h1> 
+                </button> 
+           
+                </div>
+            <div id="tutucu" style="width: 100%; height: 5px; "> 
+            </div>
+
+            <div id="navbar">   
+              <button class="button" style="width: 190px;height: 50px; background-color: cornflowerblue; margin-top: 1cm;"  onClick="document.getElementById('benkimim').scrollIntoView();">
+                <p style="margin-top: -0.5cm;">Ben Kimim?</p>
+               </button>
+               <button class="button" style="width: 190px;height: 50px; background-color: cornflowerblue; margin-top: 2.3cm;"  onClick="document.getElementById('yasadıgımsehirler').scrollIntoView();">
+                <p style="margin-top: -0.5cm;">Yaşadığım Şehirler</p>
+               </button>
+            </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          html {
+  scroll-behavior: smooth;
+ }
+            footer{background-color: rgba(7, 18, 65, 0.767)}
+            #div2{background-color: rgba(6, 65, 70, 0.726);margin-top: 0px;  height: 170px;}
+            #yasadıgımsehirler{background-color: rgba(96, 201, 201, 0.767);margin-top: -5.0cm; height: 50cm;}
+            body{background-color: rgba(63, 92, 223, 0.767) }
+            #ben{background-image: linear-gradient(rgba(96, 201, 201, 0.767),rgba(237, 255, 78, 0.767)) ; margin-left: 2cm;width: 4cm;}
+            #benkimimyazi{background-color: rgba(0, 0, 0, 0.767); }
+            #benkimim{background-color: rgba(239, 255, 15, 0.822); margin-top: -1cm; display:flex;}
+            #tutucu{background-image: radial-gradient(rgba(96, 201, 201, 0.767),rgba(237, 255, 78, 0.767)) ;}
+            #ben:hover{
+	background: linear-gradient(-45deg, #f76a3f, #c8e73c, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+            table{
+                   border: 3px solid black; 
+                   margin-left: 35cm; 
+                   margin-top:-9.5cm;
+                   font-family: Arial, Helvetica, sans-serif;
+                   font-size: 25px;
+                   background-color: rgb(0, 71, 71);
+                 }
+                 td{
+                    border: 3px solid black;
+                    padding: 0.6cm;
+                    background-color: rgb(252, 255, 72);
+                    color: black;
+                 }
+                 tr{
+                    border: 3px solid black;
+                    color:black;
+                    background-color: rgb(39, 87, 109);
+                 }
+                 tr{
+                    color: rgb(255, 255, 255);
+                 }
+                 tbody td:hover{ background-color:rgba(199, 218, 35, 0.781);}
+                 tbody td:nth-child(even){ background-color:rgba(243, 255, 137, 0.781);}
+
+            #div2{display: flex;}
+            #dell{display: flex;}
+            #navbar{background-image: linear-gradient( rgb(39, 87, 109),rgba(243, 255, 137));
+            margin-left: 0cm; margin-top: 0cm;
+            width: 190px; height: 980px; }
+            .sticky {
+                    position: fixed;
+                    top: 0;
+                    
+                    
+                    }
+            .button {
+                 padding: 15px 25px;
+                 font-size: 24px;
+                 text-align: center;
+                 cursor: pointer;
+                 outline: none;
+                 color: #fff;
+                 background-color: #4CAF50;
+                 border: none;
+                 border-radius: 15px;
+                 box-shadow: 0 9px black;
+                                                  }
+
+              .button:hover {box-shadow:0 17px black;
+                transform: translateY(-2px);
+}
+               .button:active {
+                   background-color: #3e8e41;
+                     box-shadow: 0 5px black;
+                     transform: translateY(4px);
+                                   }
+          
+        
+        </style>
+ 
+
+
+
+      </head>
+     <body style="background-image: url('img/manzara.jpg');">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="benkimimyazi">
+            <p style="color:rgb(255, 255, 255);font-family:tahoma;font-weight:bold;font-size:240%; margin-left: 20cm;">
+
+             <b>Ben Kimim ?</b>
+        </div>
+        <div id="benkimim">
+            <p style="color:rgb(0, 0, 0);font-family:tahoma;font-weight:bold;font-size:180%; margin-left: 6cm;">
+
+             <b><br/> <br/> Merhaba ben Umut Şener, bu websiteyi<br/> "Web Teknolojileri" dersi için proje olarak hazırlıyorum.</b>
+             <img height="300px" width="300px" src="img/ben.jpg" style="margin-left: 32.5cm; margin-top: -4cm; "/>
+             
+        </div>
+        <div id="yasadıgımsehirler">
+        <p style="color:rgb(0, 0, 0);font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:500%; margin-left: 6cm;margin-top: 5cm;">
+            <b><br/><br/>Yaşadığım Şehirler</b>
+            <b style="font-size: 50%;">(Tablo Örneği)</b>
+            <table>
+                <tr>
+                  <th>Yaşadığım Şehirler</th>
+                  <th>Yıllar</th>
+                </tr>
+                <tr>
+                    <td>Çorum(Doğum)</td>
+                    <td>1999</td>
+                  </tr>
+                <tr>
+                  <td>Diyarbakır</td>
+                  <td>1999-2004</td>
+                </tr>
+                <tr>
+                  <td>İzmir</td>
+                  <td>2004-2013</td>
+                </tr>
+                <tr>
+                    <td>Amasya/Merzifon</td>
+                    <td>2013-2017</td>
+                  </tr>
+                  <tr>
+                    <td>Çorum</td>
+                    <td>2017-Şimdi</td>
+                  </tr>
+              </table>
+        
+
+       </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("tutucu");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+
+
+</body>
+<footer style="margin-block-start: 1%;  ">
+
+<script>
+   
+document.writeln("<p style=\"color:white; font-size:18px;\"> Designed&Developed by Umut Şener  </p>");
+document.writen("<p style=\"color:white;\"> All Rights Reserved </p>");
+ 
+
+</script>
+                      
+                                   
+</footer>
