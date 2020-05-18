@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src='Scripts/jquery.openSound.js'></script>
 
 <head>
@@ -55,16 +55,25 @@
             <div id="menü">
               <img width="215px" height="51px" src="img/he.png" style="margin-top: 5px; margin-left: -3px;" />
 
-            <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0cm; border: black; border-style: double;"  onClick="document.getElementById('benkimimyazi').scrollIntoView();">
-              <p style="margin-top: 0.2cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 24px;">Ben Kimim?</p>
+            <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0cm; border: black; border-style: double;"  onClick="document.getElementById('projeleryazi').scrollIntoView();">
+              <p style="margin-top: 0.2cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 24px;">Projeler</p>
              </button>
-             <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0.2cm; border: black; border-style: double; "  onClick="document.getElementById('Hayatımyazi').scrollIntoView();">
-              <p style="margin-top: 0.1cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 30px;">Hayatım</p>
+             <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0.2cm; border: black; border-style: double; "  onClick="document.getElementById('HesapMakinası').scrollIntoView();">
+              <p style="margin-top: 0.1cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 20px; margin-top: 10px;">JS Hesap Makinesi</p>
              </button>
-             <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0.2cm; border: black; border-style: double; "  onClick="document.getElementById('yasadıgımyazi').scrollIntoView();">
-              <p style="margin-top: 0.3cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Yaşadığım Şehirler</p>
+             <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0.2cm; border: black; border-style: double; "  onClick="document.getElementById('degisebilir').scrollIntoView();">
+              <p style="margin-top: 0.3cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 20px;">JS Arkaplan R.</p>
              </button>
-            
+             <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0.2cm; border: black; border-style: double; "  onClick="document.getElementById('Tarih').scrollIntoView();">
+              <p style="margin-top: 0.3cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 20px;">JS Tarihi Göster</p>
+             </button> <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0.2cm; border: black; border-style: double; height: 2cm; "  onClick="document.getElementById('sayac').scrollIntoView();">
+              <p style="margin-top: 0.3cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 20px;">JS Önümüzeki Yıla <br/> Ne kadar Kaldı?</p>
+             </button>
+            </button> <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0.2cm; border: black; border-style: double; height: 2cm; "  onClick="document.getElementById('yaziekle').scrollIntoView();">
+              <p style="margin-top: 0.3cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 20px;">JQuery Yazı Ekle</p>
+             </button></button> <button style="width: 200px;height: 50px; background-color: rgba(0, 0, 0, 0.664); margin-left: 2%; margin-top: 0.2cm; border: black; border-style: double; height: 2cm; "  onClick="document.getElementById('animbuton').scrollIntoView();">
+              <p style="margin-top: 0.3cm; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 20px;">JQuery Animasyonlu Buton</p>
+             </button>
              </div>
             
 
@@ -75,8 +84,27 @@
             html { scroll-behavior: smooth; }
             footer{background-color: rgba(7, 18, 65, 0.767)}
             #div2{background-color: rgba(6, 65, 70, 0.726);margin-top: -8px;  height: 170px;}
-            #projeler{background-color: rgba(104, 100, 158, 0.685);margin-top: -1cm; }
+            #projeler{background-color: rgba(0, 0, 0, 0.685);margin-top: -1cm; }
             #projeleryazi{background-color: rgba(0, 0, 0, 0.767); margin-top: -1.1cm;}
+            #HesapMakinası{background-color: rgba(99, 42, 138, 0.589); margin-top: -1.1cm; height: 7.3cm;display: flex;}
+            #hm2{height: 5.3cm; background-color: rgb(207, 207, 207); margin-left: 34%; margin-top: 1cm; width: 10cm;height: 5.3cm; }
+            #yazıekle{background-color: rgba(99, 42, 138, 0.589);  height: 12.3cm;display: flex;}
+            #yazıekle2{background-color: rgba(255, 255, 255, 0.589); margin-top: 1cm;  height: 10.3cm; margin-left: 25%;}
+
+            #degisebilir{background-color: rgba(0, 0, 0, 0.767); height: 7cm; display: flex; }
+            #degisebilir2{background-color: rgba(0, 0, 0, 0.767); margin-left:32.5%; margin-top: 1cm; height: 5cm; background-color:rgba(255, 255, 255, 0.74); }
+
+            #Tarih{background-color: rgba(99, 42, 138, 0.589); margin-top: -1.1cm; height: 7.3cm;display: flex;}
+
+            #sayac{background-color: rgba(0, 0, 0, 0.767); height: 7cm; display: flex; }
+            #sayac2{background-color: rgba(0, 0, 0, 0.767); margin-left:12.5%; margin-top: 1cm; height: 5cm; width: 30cm; background-color:rgba(255, 255, 255, 0.74); }
+
+            #animbuton{background-color: rgba(0, 0, 0, 0.767); height: 9cm; display: flex; }
+            #animbuton2{background-color: rgba(0, 0, 0, 0.767); margin-left:12.5%; margin-top: 1cm; height: 7cm; width: 30cm; background-color:rgba(255, 255, 255, 0.74); }
+
+            #kutuToplam{background-color: rgb(252, 255, 57);}
+
+
             body{background-color: rgba(63, 92, 223, 0.767) }
             #ben{background-image: linear-gradient(rgb(141, 121, 252),rgba(237, 255, 78, 0.767)) ; margin-left: 2cm;width: 4cm;height: 4.43cm;}
             #tutucu{background-color: rgb(141, 121, 252);}
@@ -141,51 +169,225 @@
 
              <b>Projeler</b>
         </div>
-    <div id="projeler">
-        <p style="color:rgb(255, 255, 255);font-family:tahoma;font-weight:bold;font-size:240%; margin-left: 0.2cm;">
-        <b>Projelerim:</b><br />
-       </p><div>
-           <div id="dell">
-        <img  src="img/dell7577.jpg" style="margin-left:2%; width: 200; height: 200;   border-radius: 50%s; "  >
-        <p style=" margin-left: 0.5cm;">
-        <p>Bilgisayarım Dell <br/> özellikleri güzel</p><br/>
         
+          <div id="HesapMakinası">
+              <div id="hm2">
+                  <h1 style="font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); margin-left: 10%;">JS Hesap Makinesi</h1>
+                     <form name="toplam" style="margin-left: 15%;">
+              <label>1. Sayı : </label>
+              <input type="text" id="sayi1"><br><br>
+              <label>2. Sayı : </label>
+              <input type="text" id="sayi2"><br><br>
+              <label>İşlem: </label>
 
-       </div>
-       <div id="projeler">
-        <p style="color:rgb(255, 255, 255);font-family:tahoma;font-weight:bold;font-size:240%; margin-left: 0.2cm;">
-        <b>Projelerim:</b><br />
-       </p><div>
-           <div id="dell">
-        <img  src="img/dell7577.jpg" style="margin-left:2%; width: 200; height: 200;   border-radius: 50%s; "  >
-        <p style=" margin-left: 0.5cm;">
-        <p>Bilgisayarım Dell <br/> özellikleri güzel</p><br/>
-        
+              <select id="İşlemler">
+                <option id="optTopla" value="Topla">Topla</option select>
+                <option id="optÇıkart" value="Çıkart">Çıkart</option>
+                <option id="optÇarp" value="Çarp">Çarp</option>
+                <option id="optBöl" value="Böl">Böl</option>
+              </select>
+              <input type="button" style="margin-left: 15%; margin-top: -4cm; height: 40px;width: 100px; color: rgb(78, 9, 78);" id="btnTopla" value="İşlemi Yap">
+          </form>
+          <br>
+          <div id="kutuToplam" style="margin-top: -0.3cm;"></div>
+          
+          <script>
+              var btn=document.getElementById("btnTopla");
+              btn.onclick=function(){
+                var getValue = document.getElementById('İşlemler').selectedOptions[0].value;
 
-       </div>
-       <div id="projeler">
-        <p style="color:rgb(255, 255, 255);font-family:tahoma;font-weight:bold;font-size:240%; margin-left: 0.2cm;">
-        <b>Projelerim:</b><br />
-       </p><div>
-           <div id="dell">
-        <img  src="img/dell7577.jpg" style="margin-left:2%; width: 200; height: 200;   border-radius: 50%s; "  >
-        <p style=" margin-left: 0.5cm;">
-        <p>Bilgisayarım Dell <br/> özellikleri güzel</p><br/>
-        
+                  if(getValue=="Topla"){
+                  var s1=Number(document.getElementById("sayi1").value);
+                  var s2=Number(document.getElementById("sayi2").value);
+                  var sonuc=s1+s2;
+                  document.getElementById("kutuToplam").innerHTML="İşlem Sonucu : "+sonuc;
+                  }
+                 else if(getValue=="Çıkart"){
+                  var s1=Number(document.getElementById("sayi1").value);
+                  var s2=Number(document.getElementById("sayi2").value);
+                  var sonuc=s1-s2;
+                  document.getElementById("kutuToplam").innerHTML="İşlem Sonucu : "+sonuc;
+                  }
+                 else if(getValue=="Çarp"){
+                  var s1=Number(document.getElementById("sayi1").value);
+                  var s2=Number(document.getElementById("sayi2").value);
+                  var sonuc=s1*s2;
+                  document.getElementById("kutuToplam").innerHTML="İşlem Sonucu : "+sonuc;
+                  }
+                  else if(getValue=="Böl"){
+                  var s1=Number(document.getElementById("sayi1").value);
+                  var s2=Number(document.getElementById("sayi2").value);
+                  var sonuc=s1/s2;
+                  document.getElementById("kutuToplam").innerHTML="İşlem Sonucu : "+sonuc;
+                  }
+                  else{
+                    document.getElementById("kutuToplam").innerHTML="Bir sorun var, sayfayı yenileyin!";
 
-       </div>
-       <div id="projeler">
-        <p style="color:rgb(255, 255, 255);font-family:tahoma;font-weight:bold;font-size:240%; margin-left: 0.2cm;">
-        <b>Projelerim:</b><br />
-       </p><div>
-           <div id="dell">
-        <img  src="img/dell7577.jpg" style="margin-left:2%; width: 200; height: 200;   border-radius: 50%s; "  >
-        <p style=" margin-left: 0.5cm;">
-        <p>Bilgisayarım Dell <br/> özellikleri güzel</p><br/>
-        
+                  }
 
-       </div>
-</div>
+              }
+          </script>
+          </div>
+          </div>
+        </div>
+        <div id ="degisebilir">
+          <div id ="degisebilir2">
+
+          <h1 style="font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); margin-left: 20%;">JS Arkaplan Rengi Ayarlama</h1>
+          <form name="Renk" style="margin-left: 15%;">
+              <label>Renk : </label>
+              <input type="color" id="color" value="selected">
+              <input type="button" style=" margin-left: 25%; margin-top: -4cm; height: 40px;width: 100px;  " id="btnrenk" value="Renk Değiştir">
+          </form>
+          <br>
+          
+          <script>
+              var btn=document.getElementById("btnrenk");
+              btn.onclick=function(){
+                var renk = document.getElementById("color").value;
+
+
+                document.getElementById("degisebilir").style.backgroundColor=renk;
+
+                  }                    
+
+
+           
+          </script>
+                    </div>
+
+          </div>
+        </div>
+        <div id ="Tarih" style="margin-top: 0cm;">
+          <div id ="hm2">
+
+          <h1 style="font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); margin-left: 20%;">JS Tarihi Göster</h1>
+          <form name="Renk" style="margin-left: 15%;">
+              <input type="button" style=" margin-left: 25%; margin-top: -2cm; height: 40px;width: 100px;  " id="btnTarih" value="Tarihi Göster">
+              <p id="tarihyazı"></p>
+            </form>
+          <br>
+          <div id="kutuTarih" style="background-color: yellow; margin-top: 1cm;"></div>
+
+          <script>
+             var myButton=document.getElementById("btnTarih");
+              myButton.addEventListener('click',function(){
+                 var d = new Date();
+                 document.getElementById("kutuTarih").innerHTML=d;
+
+
+              })
+
+           
+          </script>
+                    </div>
+
+          </div>
+        </div>
+        <div id ="sayac" style="margin-top: 0cm;">
+          <div id ="sayac2">
+
+          <h1 style="margin-left: 3.5cm; font-size: 50px; font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0);">JS Önümüzeki Yıla Ne Kadar Kaldı?</h1>
+          <form name="Renk" style="margin-left: 15%;">
+
+            </form>
+          <br>
+          <div id="kutuKalanGün" style="background-color: yellow; margin-top: -1cm; margin-left: 11%; font-family: Arial, Helvetica, sans-serif; font-size: 50px; width: 77%; "></div>
+
+          <script>
+           var yıl=2021;
+
+            var güncelle= setInterval(function(){
+               var gerisayımtarihi = new Date("Jan 1, "+yıl+" 00:00:00").getTime();
+               var şimdi = new Date().getTime();
+               var kalansüre= gerisayımtarihi-şimdi;
+
+               var günler = Math.floor(kalansüre / (1000 * 60 * 60 * 24));
+               var saatler = Math.floor((kalansüre % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+               var dakikalar = Math.floor((kalansüre % (1000 * 60 * 60)) / (1000 * 60));
+                var saniyeler = Math.floor((kalansüre % (1000 * 60)) / 1000);
+                document.getElementById("kutuKalanGün").innerHTML = günler + " Gün " + saatler + " Saat " + dakikalar + " Dakika " + saniyeler + " Saniye ";
+ 
+                if (günler < 0) {
+                      yıl=yıl+1;
+                 }
+
+            },1000);
+              
+          </script>
+                    </div>
+
+          </div>
+        </div>
+        <div id ="yazıekle">
+          <div id ="yazıekle2" style="background-color: rgba(255, 255, 255, 0.527); width: 20cm;">
+
+          <h1 style="font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); margin-left: 16%;">JQuery Yazı Ekle(Dom Manipulation)</h1>
+          <form name="btnYD" style="margin-left: 15%;">
+            <label style="margin-left: 20%;">Yazı Yaz:</label>
+            <input type="text" id="yaziekle" style="margin-left: 0%;"><br><br>
+
+              <input type="button" style=" margin-left: 25%; margin-left: 33%; margin-top: -4cm; height: 40px;width: 100px;  " id="YazıEkle" value="Yazı Ekle">
+              <div id="YD" style="background-color: white; width: 12cm; margin-left: 8%;">Alta Yazı Eklenecek:</div>
+          </form>
+          <br>
+          <script>
+          var Ye=document.getElementById("YazıEkle");
+           Ye.addEventListener("click",function(){
+            var eklenecekyazı= document.getElementById("yaziekle").value;
+
+            $('#YD').after('<div style="background-color:yellow; width: 12cm; margin-left: 8%;">'+eklenecekyazı+'</div>');
+          })
+
+       
+          </script>
+                    </div>
+
+          </div>
+        </div>
+        <div id ="animbuton" style="margin-top: 0cm;">
+          <div id ="animbuton2">
+            <h1 style="font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); margin-left: 32%;">JQuery Animasyonlu Buton</h1>
+
+                    <button id="menubtn" style="width: 5cm; height: 0.7cm; margin-top: 0cm; margin-left: 40%; ">Menü</button>
+                    <ul id="menu" style="background-color: yellow; width: 5cm; margin-left: 40%; margin-top: 0cm;">
+                         <li><a href="/">Ben</a></li>
+                         <li><a href="/fotograflar">Fotoğraflar</a></li>
+                         <li><a href="/videolar">Videolar</a></li>
+                         <li><a href="/sesler">Sesler</a></li>
+                    </ul>
+
+                    <script>
+
+                      $(function(){
+
+                               $("#menu").hide();
+                               $("#menubtn").on("mouseenter",function(){
+                                    $("#menu").slideDown(500);
+
+                               });
+                               $("#menu").on("mouseenter",function(){
+                                $("#menu").slideDown(500);
+
+                               });
+                               $("#menu").on("mouseleave",function(){
+                                   
+                                   $("#menu").slideUp(300);
+
+                               });
+                               
+
+                               
+
+
+                      });
+
+
+
+             </script>
+            </div>
+            </div>
+          </div>
 
 </body>
 <footer style="margin-block-start: 1%;  ">
@@ -193,7 +395,6 @@
 <script>
    
 document.writeln("<p style=\"color:white; font-size:18px;\"> Designed&Developed by Umut Şener  </p>");
-document.writen("<p style=\"color:white;\"> All Rights Reserved </p>");
 
 </script>
 
