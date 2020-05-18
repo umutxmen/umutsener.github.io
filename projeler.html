@@ -3,6 +3,7 @@
 <script src='Scripts/jquery.openSound.js'></script>
 
 <head>
+  
     <title>Projeler</title>
     <link rel="icon" href="img/u2.png">
     
@@ -382,13 +383,23 @@
 
                       });
 
-
-
              </script>
             </div>
             </div>
           </div>
-
+          <div id="AjaxDemo" style="background-color: purple;">
+            <h1>Ajax txt Dosyası Okuma</h1>
+            <button type="button" onclick="DökümanYükle()">İçeriği Değiştir</button>
+            </div>
+            
+            <script>
+            function DökümanYükle() {
+              jQuery.get('text.txt',function(txt){
+                $("# AjaxDemo").text(txt);
+              })
+};
+            
+            </script>
 </body>
 <footer style="margin-block-start: 1%;  ">
 
