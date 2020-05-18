@@ -1,3 +1,1 @@
-Bu yazı text.txt dosyasından yüklenmiştir. Ajax'ın dosya okuma özelliği sayesinde.
-
-
+Ajax, “Asynchronous JavaScript and XML” (Türkçe: Eşzamansız JavaScript ve XML) anlamına gelen ve bir çok programlama dili ile uyumlu çalışan bir tekniktir. Peki ama Ajax Nedir? Amaç; bütün sayfayı kullanıcıya tekrar yükletmeden, sadece gerekli olan veriyi dinamik olarak ekrana getirmek veya sunucuya veri göndermektir. 
