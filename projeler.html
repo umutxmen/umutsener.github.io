@@ -390,12 +390,13 @@
           <div id="AjaxDemo" style="background-color: rgb(255, 255, 255);">
             <h1>Ajax txt Dosyası Okuma</h1>
             <button type="button" onclick="DökümanYükle()">İçeriği Değiştir</button>
+            <div id="AjaxKutu" style="background-color: burlywood; margin-left:30%;">Buraya text.txt'den yazı yüklenecek</div>
             </div>
             
             <script>
             function DökümanYükle() {
               jQuery.get('text.txt',function(txt){
-                $("#AjaxDemo").text(txt);
+                $("#AjaxKutu").text(txt);
               })
 };
             
